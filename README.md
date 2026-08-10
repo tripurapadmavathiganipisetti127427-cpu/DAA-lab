@@ -1,14 +1,16 @@
 SUMMARY:
-Linear Search and Binary Search are two common searching techniques used to find an element in a list.
-Linear Search checks each element one by one until the element is found.
-It works on both sorted and unsorted data but takes more time with a time complexity of O(n).
-Binary Search is a faster method that works only on sorted data. 
-It divides the list into halves and searches in the required part.
-Its time complexity is O(log n), which makes it much more efficient than linear search for large datasets.
-Thus, Linear Search is simple but slower, while Binary Search is faster but needs sorted data.
+Max Heap Sort is a comparison-based sorting algorithm that uses the concept of a binary heap data structure.
+In this method, the given array is first converted into a Max Heap, where the largest element is always stored at the root node.
+The algorithm works in two main phases. In the first phase, a Max Heap is built from the input data.
+In the second phase, the root element (maximum value) is repeatedly swapped with the last element of the heap, and the heap size is reduced.
+After each swap, the heap property is restored using the heapify process.
+Heap Sort is an in-place sorting algorithm, meaning it does not require additional memory for sorting. 
+It is not a stable sorting algorithm because the relative order of equal elements may change. The time complexity of Heap Sort is O(n log n) in all cases (best, average, and worst), making it efficient for large datasets.
+Overall, Max Heap Sort is widely used due to its predictable performance and efficient memory usage.
 
-Conclusion:
-In conclusion, both Linear Search and Binary Search have their own advantages
-. Linear Search is easy to use and works on any type of data, but it is slower.
-Binary Search is much faster and efficient, especially for large datasets, but it requires the data to be sorted.
-Therefore, Linear Search is suitable for small or unsorted data, while Binary Search is best for large and sorted data.
+CONCLUSION:
+In conclusion, Max Heap Sort is a reliable and efficient sorting algorithm that ensures consistent performance across all cases with a time complexity of O(n log n).
+Its in-place nature makes it memory-efficient, which is beneficial in systems with limited resources.
+Although it is not a stable sorting algorithm, its ability to handle large datasets and maintain performance consistency makes it a strong choice in many applications.
+Compared to other sorting algorithms like Quick Sort, Heap Sort provides guaranteed worst-case performance, which is an important advantage.
+Therefore, Max Heap Sort is a practical and effective algorithm for sorting tasks where stability is not a primary concern but efficiency and predictability are essential.
