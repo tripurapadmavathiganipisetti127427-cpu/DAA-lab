@@ -1,3 +1,31 @@
+PRATICAL 2:
+SUMMARY:
+LINEAR SEARCH
+In this practical, the Linear Search algorithm was implemented to find a specific element in a list. 
+The algorithm works by checking each element one by one from the beginning until the target element is found or the list ends.
+It does not require the data to be sorted, making it simple and flexible to use.
+The implementation included user input and execution time measurement to analyze performance.
+The time complexity of Linear Search is O(n), where n is the number of elements in the list.
+
+CONCLUSION:
+In this practical, the Linear Search algorithm was implemented to find a specific element in a list. The algorithm works by checking each element one by one from the beginning until the target element is found or the list ends.
+It does not require the data to be sorted, making it simple and flexible to use.
+The implementation included user input and execution time measurement to analyze performance.
+The time complexity of Linear Search is O(n), where n is the number of elements in the list.
+
+BINARY SEARCH:
+SUMMAARY:
+In this practical, the Binary Search algorithm was implemented to efficiently locate an element in a sorted list.
+The algorithm works by repeatedly dividing the list into two halves and comparing the target element with the middle element.
+Based on the comparison, it continues searching in either the left or right half.
+This reduces the number of comparisons significantly. The implementation included user input and execution time measurement.
+The time complexity of Binary Search is O(log n), making it much faster than Linear Search for large datasets.
+
+CONCLUSION:
+Binary Search is a highly efficient searching technique, but it requires the data to be sorted before applying the algorithm.
+It performs much better than Linear Search for large datasets due to its divide-and-conquer approach.
+This practical demonstrated how proper algorithm selection can greatly improve performance. Overall, Binary Search is the best choice when working with large and sorted data.
+
 PRACTICAL3:
 SUMMARY
 In this practical, the Max Heap Sort algorithm was implemented to sort a list of elements efficiently.
