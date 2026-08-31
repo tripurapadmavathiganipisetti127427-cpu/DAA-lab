@@ -1,3 +1,18 @@
+PRACTICAL3:
+SUMMARY
+In this practical, the Max Heap Sort algorithm was implemented to sort a list of elements efficiently.
+Heap Sort is a comparison-based sorting technique that uses a binary heap data structure. 
+First, the input array is converted into a Max Heap, where the largest element is placed at the root. Then, the root element is swapped with the last element of the heap, and the heap size is reduced.
+This process is repeated by re-heapifying the remaining elements until the array is completely sorted. 
+The algorithm ensures that at each step, the largest element is correctly placed at its final position.
+The implementation also demonstrated user input and execution time measurement to analyze performance. The overall time complexity of Heap Sort is O(n log n).
+
+CONCLUSION:
+The Max Heap Sort algorithm is an efficient and reliable sorting method, especially for large datasets.
+It guarantees a consistent time complexity of O(n log n) in all cases, making it better than simple sorting techniques like Bubble Sort or Selection Sort. Additionally, it does not require extra memory for sorting, as it works in-place.
+This practical helped in understanding how heap data structures can be used for sorting and how algorithm efficiency can be improved using structured approaches.
+Overall, Heap Sort is a powerful technique for real-world applications requiring efficient and stable performance.
+
 SUMMARY: PRATICAL-4
 The factorial program was implemented using both iterative and recursive methods in Python to understand different problem-solving approaches.
 In the iterative method, a loop is used to multiply numbers from 1 to n, making it straightforward and efficient in terms of memory usage.
