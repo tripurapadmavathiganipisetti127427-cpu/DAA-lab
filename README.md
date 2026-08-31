@@ -21,3 +21,18 @@ This practical demonstrates how dynamic programming can optimize problems that i
 It highlights the importance of breaking problems into smaller parts and storing intermediate results.
 The coin change algorithm is widely used in real-world scenarios like currency systems and resource optimization.
 Overall, this experiment improves understanding of dynamic programming concepts and shows how it helps in achieving efficient and optimal solutions.
+
+
+PRATICAL 6
+SUMMARY:
+In this practical, the Matrix Chain Multiplication problem was implemented using Dynamic Programming. 
+The main objective was to determine the most efficient way to multiply a sequence of matrices by minimizing the total number of scalar multiplications.
+Instead of solving the problem using a naive recursive approach, a Dynamic Programming technique was applied to store intermediate results in a table, thereby avoiding redundant calculations.
+The algorithm systematically evaluates all possible parenthesizations and selects the optimal one with minimum cost.
+The implementation also included user input for matrix dimensions and measured execution time, demonstrating both correctness and efficiency of the approach. The time complexity of the algorithm is O(n³), and the space complexity is O(n²).
+
+CONCLUSION:
+The Dynamic Programming approach for Matrix Chain Multiplication significantly improves performance compared to the recursive method by eliminating repeated computations. 
+This makes it highly efficient for large input sizes. 
+The practical demonstrated how optimization techniques can be applied to real-world computational problems such as database query optimization and scientific calculations. 
+Overall, the experiment provided a clear understanding of how Dynamic Programming works in reducing computational complexity and improving execution efficiency.
