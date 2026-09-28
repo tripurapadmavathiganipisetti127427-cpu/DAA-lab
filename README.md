@@ -107,3 +107,18 @@ conclusion:
 The BFS algorithm was successfully implemented and tested.
 It is widely used in applications such as shortest path finding in unweighted graphs, network traversal, and level-order traversal in trees. 
 BFS is efficient and guarantees the shortest path in terms of the number of edges. It is a fundamental and important algorithm in graph theory.
+
+pratical:9 
+summary:
+In this experiment, Prim’s Algorithm was implemented using Python to find the Minimum Spanning Tree (MST) of a graph. 
+The graph was represented using an adjacency matrix. 
+The algorithm starts from an initial vertex and repeatedly selects the minimum weight edge that connects a visited vertex to an unvisited vertex.
+A list was used to keep track of selected vertices, ensuring that no cycles are formed during the process. 
+The algorithm continues until all vertices are included in the spanning tree. The output shows the selected edges and their corresponding weights.
+The time complexity of Prim’s Algorithm is O(V²).
+
+conclusion:
+Prim’s Algorithm was successfully implemented to generate the Minimum Spanning Tree of a graph. 
+It ensures that all vertices are connected with the minimum possible total edge weight.
+This algorithm is widely used in real-world applications such as network design, including roads, electrical systems, and communication networks. 
+It is efficient for dense graphs and is an important concept in graph theory and optimization.
