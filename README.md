@@ -81,3 +81,29 @@ The Dynamic Programming approach for Matrix Chain Multiplication significantly i
 This makes it highly efficient for large input sizes. 
 The practical demonstrated how optimization techniques can be applied to real-world computational problems such as database query optimization and scientific calculations. 
 Overall, the experiment provided a clear understanding of how Dynamic Programming works in reducing computational complexity and improving execution efficiency.
+
+pratical:8 
+sumarry:(DFS)
+In this experiment, Depth First Search (DFS) algorithm was implemented using Python.
+The graph was represented using an adjacency list. DFS traversal was performed using recursion, where each node is visited and then its adjacent nodes are explored deeply before moving to the next node.
+The algorithm uses a visited set to avoid revisiting nodes and to prevent infinite loops.
+The traversal order obtained shows that DFS explores the graph in a depth-wise manner.
+The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges.
+
+conclusion:
+The DFS algorithm was successfully implemented and executed.
+It is useful in applications such as path finding, cycle detection, and solving puzzles like mazes.
+DFS is efficient and simple to implement using recursion. 
+It helps in exploring all possible paths in a graph and is an important fundamental algorithm in computer science.
+
+summary:(BFS)
+In this experiment, Breadth First Search (BFS) algorithm was implemented using Python. 
+The graph was represented using an adjacency list.
+BFS traversal was performed using a queue, where nodes are visited level by level starting from the source node.
+A visited set was used to track visited nodes and avoid repetition.
+The traversal order shows that BFS explores all neighbors of a node before moving to the next level. The time complexity of BFS is O(V + E).
+
+conclusion:
+The BFS algorithm was successfully implemented and tested.
+It is widely used in applications such as shortest path finding in unweighted graphs, network traversal, and level-order traversal in trees. 
+BFS is efficient and guarantees the shortest path in terms of the number of edges. It is a fundamental and important algorithm in graph theory.
