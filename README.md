@@ -122,3 +122,22 @@ Prim’s Algorithm was successfully implemented to generate the Minimum Spanning
 It ensures that all vertices are connected with the minimum possible total edge weight.
 This algorithm is widely used in real-world applications such as network design, including roads, electrical systems, and communication networks. 
 It is efficient for dense graphs and is an important concept in graph theory and optimization.
+
+pratical-10:
+summary:
+Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, undirected graph.
+It works by selecting edges in increasing order of weight and adding them to the MST only if they do not form a cycle.
+To efficiently detect cycles, the algorithm uses the Disjoint Set (Union-Find) data structure. 
+The process continues until (V − 1) edges are selected, where V is the number of vertices.
+Key points:
+Sort all edges based on weight
+Pick the smallest edge first
+Avoid cycles using Union-Find
+Continue until MST is complete
+Time complexity is O(E log E) due to sorting of edges
+
+conclusion:
+Kruskal’s Algorithm is a simple and efficient method for constructing a Minimum Spanning Tree, especially for sparse graphs.
+Its greedy approach ensures that the total cost of connecting all vertices is minimized.
+By using the Union-Find technique, the algorithm effectively prevents cycles and maintains optimal performance. 
+It is widely used in real-world applications like network design, road construction, and clustering problems.
